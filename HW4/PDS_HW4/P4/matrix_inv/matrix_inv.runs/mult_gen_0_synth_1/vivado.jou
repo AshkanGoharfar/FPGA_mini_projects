@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun May 19 17:39:35 2019
+# Process ID: 1664
+# Current directory: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/mult_gen_0_synth_1
+# Command line: vivado.exe -log mult_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_gen_0.tcl
+# Log file: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/mult_gen_0_synth_1/mult_gen_0.vds
+# Journal file: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/mult_gen_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_gen_0.tcl -notrace

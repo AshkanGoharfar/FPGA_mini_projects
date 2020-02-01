@@ -1,0 +1,44 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto c1118b5549914654b9c4b81a273dc306 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot top_tb_func_synth xil_defaultlib.top_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9,1,1,1,4,1,7)\]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9,1,7,1,4)\]
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10000001100010010000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000100010111000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10101011101000001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10100110100011110010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10110001101110100001...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10111111101010010001...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10111111101101110000...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1011111100000000")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000001000010001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00101010101000111010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10001011100010001000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000111000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00100011000010001010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10001000000000010010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10101001000010000010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10000010001010111010...]
+Compiling architecture structure of entity xil_defaultlib.dist_mem_gen_0_rom [dist_mem_gen_0_rom_default]
+Compiling architecture structure of entity xil_defaultlib.dist_mem_gen_0_dist_mem_gen_v8_0_11_synth [dist_mem_gen_0_dist_mem_gen_v8_0...]
+Compiling architecture structure of entity xil_defaultlib.dist_mem_gen_0_dist_mem_gen_v8_0_11 [dist_mem_gen_0_dist_mem_gen_v8_0...]
+Compiling architecture structure of entity xil_defaultlib.dist_mem_gen_0 [dist_mem_gen_0_default]
+Compiling architecture structure of entity xil_defaultlib.top [top_default]
+Compiling architecture behavioral of entity xil_defaultlib.top_tb
+Built simulation snapshot top_tb_func_synth

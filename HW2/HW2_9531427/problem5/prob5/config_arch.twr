@@ -1,0 +1,186 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+d:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2I
+-n 3 -fastpaths -xml config_arch.twx config_arch.ncd -o config_arch.twr
+config_arch.pcf
+
+Design file:              config_arch.ncd
+Physical constraint file: config_arch.pcf
+Device,package,speed:     xa7a100t,csg324,I,-2I (PRELIMINARY 1.07 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+input<0>       |output1<0>     |    6.632|
+input<0>       |output2<0>     |    6.361|
+input<1>       |output1<0>     |    6.597|
+input<1>       |output1<1>     |    6.272|
+input<1>       |output2<0>     |    6.222|
+input<1>       |output2<1>     |    6.283|
+input<2>       |output1<0>     |    6.306|
+input<2>       |output1<1>     |    6.556|
+input<2>       |output1<2>     |    6.338|
+input<2>       |output2<0>     |    6.207|
+input<2>       |output2<1>     |    6.567|
+input<2>       |output2<2>     |    6.445|
+input<3>       |output1<0>     |    6.389|
+input<3>       |output1<1>     |    6.549|
+input<3>       |output1<2>     |    6.455|
+input<3>       |output1<3>     |    6.832|
+input<3>       |output2<0>     |    5.932|
+input<3>       |output2<1>     |    6.560|
+input<3>       |output2<2>     |    6.562|
+input<3>       |output2<3>     |    6.941|
+input<4>       |output1<0>     |    6.317|
+input<4>       |output1<1>     |    6.790|
+input<4>       |output1<2>     |    6.907|
+input<4>       |output1<3>     |    6.698|
+input<4>       |output1<4>     |    6.606|
+input<4>       |output2<0>     |    6.374|
+input<4>       |output2<1>     |    6.801|
+input<4>       |output2<2>     |    7.014|
+input<4>       |output2<3>     |    6.807|
+input<4>       |output2<4>     |    6.334|
+input<5>       |output1<0>     |    6.205|
+input<5>       |output1<1>     |    6.387|
+input<5>       |output1<2>     |    6.449|
+input<5>       |output1<3>     |    6.124|
+input<5>       |output1<4>     |    6.386|
+input<5>       |output1<5>     |    6.447|
+input<5>       |output2<0>     |    6.154|
+input<5>       |output2<1>     |    6.398|
+input<5>       |output2<2>     |    6.556|
+input<5>       |output2<3>     |    6.233|
+input<5>       |output2<4>     |    6.114|
+input<5>       |output2<5>     |    6.326|
+input<6>       |output1<0>     |    6.259|
+input<6>       |output1<1>     |    6.346|
+input<6>       |output1<2>     |    6.650|
+input<6>       |output1<3>     |    6.868|
+input<6>       |output1<4>     |    6.617|
+input<6>       |output1<5>     |    6.632|
+input<6>       |output1<6>     |    5.878|
+input<6>       |output2<0>     |    6.385|
+input<6>       |output2<1>     |    6.357|
+input<6>       |output2<2>     |    6.757|
+input<6>       |output2<3>     |    6.977|
+input<6>       |output2<4>     |    6.345|
+input<6>       |output2<5>     |    6.511|
+input<6>       |output2<6>     |    6.349|
+input<7>       |output1<0>     |    6.692|
+input<7>       |output1<1>     |    6.847|
+input<7>       |output1<2>     |    6.967|
+input<7>       |output1<3>     |    6.605|
+input<7>       |output1<4>     |    7.037|
+input<7>       |output1<5>     |    6.123|
+input<7>       |output1<6>     |    6.278|
+input<7>       |output1<7>     |    6.215|
+input<7>       |output2<0>     |    6.805|
+input<7>       |output2<1>     |    6.858|
+input<7>       |output2<2>     |    7.074|
+input<7>       |output2<3>     |    6.714|
+input<7>       |output2<4>     |    6.765|
+input<7>       |output2<5>     |    6.002|
+input<7>       |output2<6>     |    6.749|
+input<7>       |output2<7>     |    6.664|
+mode           |output1<1>     |    6.581|
+mode           |output1<2>     |    6.361|
+mode           |output1<3>     |    6.183|
+mode           |output1<4>     |    6.019|
+mode           |output1<5>     |    6.171|
+mode           |output1<6>     |    5.550|
+mode           |output1<7>     |    5.933|
+mode           |output2<1>     |    6.592|
+mode           |output2<2>     |    6.468|
+mode           |output2<3>     |    6.292|
+mode           |output2<4>     |    5.747|
+mode           |output2<5>     |    6.050|
+mode           |output2<6>     |    6.021|
+mode           |output2<7>     |    6.382|
+shift<0>       |output1<0>     |    7.107|
+shift<0>       |output1<1>     |    6.654|
+shift<0>       |output1<2>     |    6.968|
+shift<0>       |output1<3>     |    6.713|
+shift<0>       |output1<4>     |    7.097|
+shift<0>       |output1<5>     |    6.479|
+shift<0>       |output1<6>     |    6.290|
+shift<0>       |output1<7>     |    6.132|
+shift<0>       |output2<0>     |    7.053|
+shift<0>       |output2<1>     |    6.665|
+shift<0>       |output2<2>     |    7.075|
+shift<0>       |output2<3>     |    6.822|
+shift<0>       |output2<4>     |    6.825|
+shift<0>       |output2<5>     |    6.358|
+shift<0>       |output2<6>     |    6.761|
+shift<0>       |output2<7>     |    6.581|
+shift<1>       |output1<0>     |    6.298|
+shift<1>       |output1<1>     |    6.568|
+shift<1>       |output1<2>     |    6.690|
+shift<1>       |output1<3>     |    6.671|
+shift<1>       |output1<4>     |    6.292|
+shift<1>       |output1<5>     |    6.504|
+shift<1>       |output1<6>     |    5.798|
+shift<1>       |output1<7>     |    6.587|
+shift<1>       |output2<0>     |    6.279|
+shift<1>       |output2<1>     |    6.579|
+shift<1>       |output2<2>     |    6.797|
+shift<1>       |output2<3>     |    6.780|
+shift<1>       |output2<4>     |    6.020|
+shift<1>       |output2<5>     |    6.383|
+shift<1>       |output2<6>     |    6.269|
+shift<1>       |output2<7>     |    7.036|
+shift<2>       |output1<0>     |    6.699|
+shift<2>       |output1<1>     |    6.830|
+shift<2>       |output1<2>     |    6.964|
+shift<2>       |output1<3>     |    6.441|
+shift<2>       |output1<4>     |    6.352|
+shift<2>       |output1<5>     |    6.368|
+shift<2>       |output1<6>     |    6.091|
+shift<2>       |output1<7>     |    6.104|
+shift<2>       |output2<0>     |    6.143|
+shift<2>       |output2<1>     |    6.841|
+shift<2>       |output2<2>     |    7.071|
+shift<2>       |output2<3>     |    6.550|
+shift<2>       |output2<4>     |    6.080|
+shift<2>       |output2<5>     |    6.247|
+shift<2>       |output2<6>     |    6.562|
+shift<2>       |output2<7>     |    6.553|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Mar 22 20:17:48 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 614 MB
+
+
+

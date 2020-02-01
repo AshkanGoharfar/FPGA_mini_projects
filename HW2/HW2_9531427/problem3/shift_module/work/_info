@@ -1,0 +1,84 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Ashkan works\HW2_9531427\problem3\shift_module
+T_opt
+VYH`8lR3IU<f99eoM3XUNh3
+04 5 8 work test3 behavior 1
+=1-54ee754eb040-5c94f8fb-3c0-232c
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1c;51
+Eshift_rtl
+Z1 w1553266675
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dD:\Ashkan works\HW2_9531427\problem3\shift_module
+Z6 8shift_RTL.vhd
+Z7 Fshift_RTL.vhd
+l0
+L33
+VF[iVEmFg:LGodCoWF^D_l3
+Z8 OL;C;10.1c;51
+31
+Z9 !s108 1553266939.336000
+Z10 !s90 -reportprogress|300|-explicit|-93|shift_RTL.vhd|
+Z11 !s107 shift_RTL.vhd|
+Z12 o-explicit -93
+Z13 tExplicit 1
+!s100 9`cZDTBRPF52mNN`OJToo2
+!i10b 1
+Astruct
+R2
+R3
+R4
+DEx4 work 9 shift_rtl 0 22 F[iVEmFg:LGodCoWF^D_l3
+l46
+L40
+V6VBn3zk;ZK[Gj?Q?1loFJ1
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 aP^Q^37]<A^z0okSW2N_F2
+!i10b 1
+Etest3
+Z14 w1553257589
+R3
+R4
+R5
+Z15 8test3.vhd
+Z16 Ftest3.vhd
+l0
+L35
+V8mi[kTH;17k;1]EPclTJH2
+R8
+31
+Z17 !s108 1553266939.666000
+Z18 !s90 -reportprogress|300|-explicit|-93|test3.vhd|
+Z19 !s107 test3.vhd|
+R12
+R13
+!s100 :D_fT8DmmNWQC<]@GDW^]1
+!i10b 1
+Abehavior
+R3
+R4
+DEx4 work 5 test3 0 22 8mi[kTH;17k;1]EPclTJH2
+l64
+L38
+V8aX?:o7QLE=nNOEL6>5S^1
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 m5mnmPc;3d<lXlO:j9]o03
+!i10b 1

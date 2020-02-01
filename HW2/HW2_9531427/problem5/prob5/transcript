@@ -1,0 +1,102 @@
+# Reading C:/modeltech64_10.1c/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.1c Jul 28 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {test5.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX8
+# -- Compiling architecture Behavioral of MUX8
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity shift_RTL
+# -- Compiling architecture problem3 of shift_RTL
+# -- Compiling architecture problem4 of shift_RTL
+# -- Loading entity shift_RTL
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity config_arch
+# -- Compiling architecture Behavioral of config_arch
+# -- Loading package NUMERIC_STD
+# -- Loading entity shift_RTL
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test5
+# -- Compiling architecture behavior of test5
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.test5 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test5(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.config_arch(behavioral)#1
+# Loading work.shift_rtl(problem3)#1
+# Loading work.shift_rtl(problem4)#1
+# Loading work.mux8(behavioral)#1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+vcom
+vcom -reportprogress 300 -work work {D:/Ashkan works/HW2_9531427/problem5/prob5/test5.vhd}
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test5
+# -- Compiling architecture behavior of test5
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test5(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.config_arch(behavioral)#1
+# Loading work.shift_rtl(problem3)#1
+# Loading work.shift_rtl(problem4)#1
+# Loading work.mux8(behavioral)#1
+run
+run
+run
+vcom
+vcom -reportprogress 300 -work work {D:/Ashkan works/HW2_9531427/problem5/prob5/test5.vhd}
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test5
+# -- Compiling architecture behavior of test5
+restart -f
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test5(behavior)#1
+# Loading ieee.numeric_std(body)
+# Loading work.config_arch(behavioral)#1
+# Loading work.shift_rtl(problem3)#1
+# Loading work.shift_rtl(problem4)#1
+# Loading work.mux8(behavioral)#1
+run
+run

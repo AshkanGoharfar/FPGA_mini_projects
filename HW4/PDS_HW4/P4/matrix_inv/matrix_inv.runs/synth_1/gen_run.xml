@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a200tisbg484-1L" LaunchTime="1558289472">
+  <File Type="PA-TCL" Name="top_matrix.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_matrix_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="top_matrix.vds"/>
+  <File Type="RDS-UTIL" Name="top_matrix_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_matrix_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top_matrix.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_matrix_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_matrix_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/top_matrix.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top_matrix"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="mult_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="div_gen_0"/>
+</GenRun>

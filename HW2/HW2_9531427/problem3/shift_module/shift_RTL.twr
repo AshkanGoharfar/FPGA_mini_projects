@@ -1,0 +1,118 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+d:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml shift_RTL.twx shift_RTL.ncd -o shift_RTL.twr shift_RTL.pcf
+
+Design file:              shift_RTL.ncd
+Physical constraint file: shift_RTL.pcf
+Device,package,speed:     xc6slx75t,fgg484,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+input<0>       |output<0>      |   10.242|
+input<1>       |output<0>      |    9.460|
+input<1>       |output<1>      |    9.154|
+input<2>       |output<0>      |   10.148|
+input<2>       |output<1>      |    9.956|
+input<2>       |output<2>      |    8.795|
+input<3>       |output<0>      |   10.524|
+input<3>       |output<1>      |    9.522|
+input<3>       |output<2>      |   10.507|
+input<3>       |output<3>      |   10.622|
+input<4>       |output<0>      |   10.383|
+input<4>       |output<1>      |    9.725|
+input<4>       |output<2>      |    8.960|
+input<4>       |output<3>      |   10.422|
+input<4>       |output<4>      |    9.604|
+input<5>       |output<0>      |   10.345|
+input<5>       |output<1>      |    9.846|
+input<5>       |output<2>      |   10.198|
+input<5>       |output<3>      |   10.313|
+input<5>       |output<4>      |   10.287|
+input<5>       |output<5>      |    9.943|
+input<6>       |output<0>      |   10.775|
+input<6>       |output<1>      |   10.047|
+input<6>       |output<2>      |    9.398|
+input<6>       |output<3>      |   10.814|
+input<6>       |output<4>      |    9.996|
+input<6>       |output<5>      |    9.176|
+input<6>       |output<6>      |    9.157|
+input<7>       |output<0>      |   11.076|
+input<7>       |output<1>      |   10.043|
+input<7>       |output<2>      |   10.929|
+input<7>       |output<3>      |   11.044|
+input<7>       |output<4>      |   11.018|
+input<7>       |output<5>      |   10.674|
+input<7>       |output<6>      |    9.404|
+input<7>       |output<7>      |    9.380|
+mode           |output<1>      |   10.110|
+mode           |output<2>      |    9.214|
+mode           |output<3>      |    9.609|
+mode           |output<4>      |    9.383|
+mode           |output<5>      |    9.849|
+mode           |output<6>      |    9.308|
+mode           |output<7>      |    9.208|
+shamt<0>       |output<0>      |   10.449|
+shamt<0>       |output<1>      |   10.312|
+shamt<0>       |output<2>      |    9.393|
+shamt<0>       |output<3>      |   10.038|
+shamt<0>       |output<4>      |    9.634|
+shamt<0>       |output<5>      |    8.974|
+shamt<0>       |output<6>      |    9.609|
+shamt<0>       |output<7>      |    9.095|
+shamt<1>       |output<0>      |   10.907|
+shamt<1>       |output<1>      |    9.935|
+shamt<1>       |output<2>      |   10.442|
+shamt<1>       |output<3>      |   10.946|
+shamt<1>       |output<4>      |   10.531|
+shamt<1>       |output<5>      |   10.187|
+shamt<1>       |output<6>      |    9.577|
+shamt<1>       |output<7>      |    9.374|
+shamt<2>       |output<0>      |    9.846|
+shamt<2>       |output<1>      |    9.936|
+shamt<2>       |output<2>      |   10.682|
+shamt<2>       |output<3>      |   10.797|
+shamt<2>       |output<4>      |    9.410|
+shamt<2>       |output<5>      |    9.266|
+shamt<2>       |output<6>      |    9.760|
+shamt<2>       |output<7>      |    9.412|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Mar 22 19:30:19 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 303 MB
+
+
+

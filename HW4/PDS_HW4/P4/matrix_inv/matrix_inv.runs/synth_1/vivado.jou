@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun May 19 22:41:13 2019
+# Process ID: 3804
+# Current directory: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1
+# Command line: vivado.exe -log top_matrix.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_matrix.tcl
+# Log file: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/top_matrix.vds
+# Journal file: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_matrix.tcl -notrace

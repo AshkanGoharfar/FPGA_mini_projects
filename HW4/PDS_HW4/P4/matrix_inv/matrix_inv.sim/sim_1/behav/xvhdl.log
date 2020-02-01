@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity mult_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/ip/div_gen_0/sim/div_gen_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity div_gen_0
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_matrix
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sim_1/new/matrix_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity matrix_tb

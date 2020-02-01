@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun May 19 16:52:54 2019
+# Process ID: 5472
+# Current directory: D:/Ashkan works/PDS_HW4/P2/CRC/CRC.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/Ashkan works/PDS_HW4/P2/CRC/CRC.sim/sim_1/behav/xsim.dir/CRC_16_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Ashkan works/PDS_HW4/P2/CRC/CRC.sim/sim_1/behav/webtalk.log
+# Journal file: D:/Ashkan works/PDS_HW4/P2/CRC/CRC.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/Ashkan -notrace
+couldn't read file "D:/Ashkan": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Sun May 19 16:52:54 2019...

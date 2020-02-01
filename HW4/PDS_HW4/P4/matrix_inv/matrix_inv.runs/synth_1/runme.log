@@ -1,0 +1,431 @@
+
+*** Running vivado
+    with args -log top_matrix.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_matrix.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source top_matrix.tcl -notrace
+Command: synth_design -top top_matrix -part xc7a200tisbg484-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 908 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 323.555 ; gain = 113.711
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_matrix' [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:43]
+INFO: [Synth 8-3491] module 'mult_gen_0' declared at 'D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/.Xil/Vivado-3804-goharfar-PC/realtime/mult_gen_0_stub.vhdl:5' bound to instance 'my_multi' of component 'mult_gen_0' [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'mult_gen_0' [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/.Xil/Vivado-3804-goharfar-PC/realtime/mult_gen_0_stub.vhdl:15]
+WARNING: [Synth 8-5640] Port 's_axis_divisor_tready' is missing in component declaration [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:53]
+WARNING: [Synth 8-5640] Port 's_axis_dividend_tready' is missing in component declaration [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:53]
+INFO: [Synth 8-3491] module 'div_gen_0' declared at 'D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/.Xil/Vivado-3804-goharfar-PC/realtime/div_gen_0_stub.vhdl:5' bound to instance 'my_divide' of component 'div_gen_0' [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'div_gen_0' [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/.Xil/Vivado-3804-goharfar-PC/realtime/div_gen_0_stub.vhdl:20]
+INFO: [Synth 8-256] done synthesizing module 'top_matrix' (1#1) [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:43]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 360.520 ; gain = 150.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 360.520 ; gain = 150.676
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'div_gen_0' instantiated as 'my_divide' [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:106]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'mult_gen_0' instantiated as 'my_multi' [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:97]
+INFO: [Device 21-403] Loading part xc7a200tisbg484-1L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/.Xil/Vivado-3804-goharfar-PC/dcp/mult_gen_0_in_context.xdc] for cell 'my_multi'
+Finished Parsing XDC File [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/.Xil/Vivado-3804-goharfar-PC/dcp/mult_gen_0_in_context.xdc] for cell 'my_multi'
+Parsing XDC File [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/.Xil/Vivado-3804-goharfar-PC/dcp_2/div_gen_0_in_context.xdc] for cell 'my_divide'
+Finished Parsing XDC File [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/.Xil/Vivado-3804-goharfar-PC/dcp_2/div_gen_0_in_context.xdc] for cell 'my_divide'
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 696.082 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tisbg484-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 's_axis_divisor_tvalid_reg' into 's_axis_dividend_tvalid_reg' [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:109]
+WARNING: [Synth 8-3936] Found unconnected internal register 'b22_reg' and it is trimmed from '48' to '39' bits. [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:201]
+WARNING: [Synth 8-3936] Found unconnected internal register 'b21_reg' and it is trimmed from '48' to '39' bits. [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:189]
+WARNING: [Synth 8-3936] Found unconnected internal register 'b12_reg' and it is trimmed from '48' to '39' bits. [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:177]
+WARNING: [Synth 8-3936] Found unconnected internal register 'b11_reg' and it is trimmed from '48' to '39' bits. [D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/new/top_matrix.vhd:165]
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'top_matrix'
+INFO: [Synth 8-5544] ROM "a11" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    read |                             0000 |                             0000
+                    cal1 |                             0001 |                             0001
+                    cal2 |                             0010 |                             0010
+                    cal3 |                             0011 |                             0011
+                    cal4 |                             0100 |                             0100
+                    cal5 |                             0101 |                             0101
+                    cal6 |                             0110 |                             0110
+                    cal7 |                             0111 |                             0111
+                 result1 |                             1000 |                             1000
+                 result2 |                             1001 |                             1001
+                 result3 |                             1010 |                             1010
+                 result4 |                             1011 |                             1011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'top_matrix'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               39 Bit    Registers := 4     
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 8     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  12 Input     16 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 2     
+	  12 Input      8 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module top_matrix 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               39 Bit    Registers := 4     
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 8     
+	                8 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	  12 Input     16 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 2     
+	  12 Input      8 Bit        Muxes := 1     
+	  12 Input      4 Bit        Muxes := 1     
+	  12 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 16    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (s_axis_dividend_tvalid_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (valid_reg)
+WARNING: [Synth 8-3332] Sequential element (b11_reg[22]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[21]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[20]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[19]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[18]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[17]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[16]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[15]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[14]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[13]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[12]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[11]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[10]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[9]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[8]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[7]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[6]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[5]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[4]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[3]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[2]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[1]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b11_reg[0]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[22]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[21]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[20]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[19]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[18]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[17]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[16]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[15]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[14]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[13]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[12]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[11]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[10]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[9]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[8]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[7]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[6]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[5]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[4]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[3]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[2]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[1]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b12_reg[0]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[22]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[21]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[20]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[19]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[18]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[17]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[16]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[15]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[14]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[13]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[12]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[11]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[10]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[9]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[8]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[7]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[6]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[5]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[4]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[3]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[2]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[1]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b21_reg[0]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[22]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[21]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[20]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[19]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[18]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[17]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[16]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[15]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[14]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[13]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[12]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[11]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[10]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[9]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[8]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[7]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[6]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[5]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[4]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[3]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[2]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[1]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (b22_reg[0]) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (valid_reg) is unused and will be removed from module top_matrix.
+WARNING: [Synth 8-3332] Sequential element (s_axis_dividend_tvalid_reg) is unused and will be removed from module top_matrix.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |mult_gen_0    |         1|
+|2     |div_gen_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |div_gen_0_bbox  |     1|
+|2     |mult_gen_0_bbox |     1|
+|3     |BUFG            |     1|
+|4     |CARRY4          |    12|
+|5     |LUT1            |    16|
+|6     |LUT2            |    35|
+|7     |LUT3            |    35|
+|8     |LUT4            |     7|
+|9     |LUT5            |    13|
+|10    |LUT6            |    42|
+|11    |FDRE            |   334|
+|12    |IBUF            |    19|
+|13    |OBUF            |    19|
++------+----------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   616|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 696.082 ; gain = 486.238
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 98 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 696.082 ; gain = 109.148
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 696.082 ; gain = 486.238
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 31 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+24 Infos, 102 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 696.082 ; gain = 449.637
+INFO: [Common 17-1381] The checkpoint 'D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/synth_1/top_matrix.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 696.082 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun May 19 22:41:49 2019...

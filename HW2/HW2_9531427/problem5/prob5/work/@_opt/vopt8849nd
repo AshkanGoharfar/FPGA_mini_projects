@@ -1,0 +1,173 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Ashkan works\HW2_9531427\problem5\prob5
+T_opt
+V6C1a<Bd42:]]9O@b6T<E61
+04 5 8 work test5 behavior 1
+=3-54ee754eb040-5c95062c-254-20f0
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.1c;51
+Econfig_arch
+Z1 w1553269552
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\Ashkan works\HW2_9531427\problem5\prob5
+Z5 8config_arch.vhd
+Z6 Fconfig_arch.vhd
+l0
+L32
+Vzj;Q[jXILF1g77gcR;9lR3
+Z7 OL;C;10.1c;51
+31
+Z8 !s108 1553270088.793000
+Z9 !s90 -reportprogress|300|-explicit|-93|config_arch.vhd|
+Z10 !s107 config_arch.vhd|
+Z11 o-explicit -93
+Z12 tExplicit 1
+!s100 fLB65IJm<H5PK<boWS:6W3
+!i10b 1
+Abehavioral
+Z13 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z14 DEx4 work 9 shift_rtl 0 22 RQ:^f0?M74d5R<TY2]hKA0
+R2
+R3
+DEx4 work 11 config_arch 0 22 zj;Q[jXILF1g77gcR;9lR3
+l57
+L41
+VF4faXPB3n@fe[kQY5M1Y;3
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 I>9_R?8B9QVHNYglDoMYY3
+!i10b 1
+Emux8
+Z15 w1553242384
+R2
+R3
+R4
+Z16 8MUX8.vhd
+Z17 FMUX8.vhd
+l0
+L32
+VG>Xd4`SlD2YI3b3Qk7K^T2
+R7
+31
+Z18 !s108 1553270088.390000
+Z19 !s90 -reportprogress|300|-explicit|-93|MUX8.vhd|
+Z20 !s107 MUX8.vhd|
+R11
+R12
+!s100 o`g3IhEZOJ^Q2DW>958JU0
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 4 mux8 0 22 G>Xd4`SlD2YI3b3Qk7K^T2
+l40
+L38
+Vziz][2C<Jhk>`WQBEnbk=3
+R7
+31
+R18
+R19
+R20
+R11
+R12
+!s100 =Yz;ZLU6LKgRdK0>gS@Gf0
+!i10b 1
+Eshift_rtl
+Z21 w1553269319
+R13
+R2
+R3
+R4
+Z22 8shift_RTL.vhd
+Z23 Fshift_RTL.vhd
+l0
+L33
+VRQ:^f0?M74d5R<TY2]hKA0
+R7
+31
+Z24 !s108 1553270088.587000
+Z25 !s90 -reportprogress|300|-explicit|-93|shift_RTL.vhd|
+Z26 !s107 shift_RTL.vhd|
+R11
+R12
+!s100 h48M@DWaJQ?G24l?[zLE;1
+!i10b 1
+Aproblem4
+R13
+R2
+R3
+R14
+l72
+L58
+V`n=[H>IRPoNiL<oUglc:d0
+R7
+31
+R24
+R25
+R26
+R11
+R12
+!s100 >fbYb1_NLRKDjeLDMAgid3
+!i10b 1
+Aproblem3
+R13
+R2
+R3
+R14
+l47
+L41
+V3cnlHZbmSg0mS9`K<5KMK0
+R7
+31
+R24
+R25
+R26
+R11
+R12
+!s100 l5=;7^_6`e>9?FDJo^X?z0
+!i10b 1
+Etest5
+Z27 w1553270304
+R2
+R3
+R4
+Z28 8D:/Ashkan works/HW2_9531427/problem5/prob5/test5.vhd
+Z29 FD:/Ashkan works/HW2_9531427/problem5/prob5/test5.vhd
+l0
+L35
+VWMYgGz<kC;0E[oM]N4R=;3
+R7
+32
+Z30 !s108 1553270311.805000
+Z31 !s90 -reportprogress|300|-work|work|D:/Ashkan works/HW2_9531427/problem5/prob5/test5.vhd|
+Z32 !s107 D:/Ashkan works/HW2_9531427/problem5/prob5/test5.vhd|
+Z33 o-work work
+R12
+!s100 B?mPmINl=_TmT9hEho8>00
+!i10b 1
+Abehavior
+R2
+R3
+DEx4 work 5 test5 0 22 WMYgGz<kC;0E[oM]N4R=;3
+l63
+L38
+Vij1>LJWLNFBN8?bWY<YSb1
+R7
+32
+R30
+R31
+R32
+R33
+R12
+!s100 D^b1[iZgW?RZELkMlSIR?3
+!i10b 1

@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Ashkan works/PDS_HW4/P1/equation/equation.sim/sim_1/synth/func/top_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity dist_mem_gen_0_rom
+INFO: [VRFC 10-307] analyzing entity dist_mem_gen_0_dist_mem_gen_v8_0_11_synth
+INFO: [VRFC 10-307] analyzing entity dist_mem_gen_0_dist_mem_gen_v8_0_11
+INFO: [VRFC 10-307] analyzing entity dist_mem_gen_0
+INFO: [VRFC 10-307] analyzing entity top
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Ashkan works/PDS_HW4/P1/equation/equation.srcs/sim_1/new/top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_tb

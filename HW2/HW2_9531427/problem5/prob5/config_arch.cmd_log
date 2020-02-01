@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.xst" -ofn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.xst" -ofn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.xst" -ofn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.xst" -ofn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.xst" -ofn "D:/Ashkan works/HW2_9531427/problem5/prob5/config_arch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "config_arch.ngc" config_arch.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o config_arch_map.ncd config_arch.ngd config_arch.pcf 
+par -w -intstyle ise -ol high -mt off config_arch_map.ncd config_arch.ncd config_arch.pcf 
+trce -intstyle ise -v 3 -s 2I -n 3 -fastpaths -xml config_arch.twx config_arch.ncd -o config_arch.twr config_arch.pcf 

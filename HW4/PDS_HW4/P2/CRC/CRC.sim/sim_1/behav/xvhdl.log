@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Ashkan works/PDS_HW4/P2/CRC/CRC.srcs/sources_1/new/CRC_16.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CRC_16
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Ashkan works/PDS_HW4/P2/CRC/CRC.srcs/sim_1/new/CRC_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CRC_tb

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pn" timeStamp="Fri Mar 22 20:03:01 2019">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="43021DBF2C374BC1B05526FB3C4BB950" type="project"/>
+<property name="ProjectIteration" value="6" type="project"/>
+<property name="ProjectFile" value="D:/Ashkan works/HW2_9531427/problem4/barrel_shift/barrel_shift.xise" type="project"/>
+<property name="ProjectCreationTimestamp" value="2019-03-22T12:08:25" type="project"/>
+</section>
+<section name="Project Statistics" visible="true">
+<property name="PROP_Enable_Message_Filtering" value="false" type="design"/>
+<property name="PROP_FitterReportFormat" value="HTML" type="process"/>
+<property name="PROP_LastAppliedGoal" value="Balanced" type="design"/>
+<property name="PROP_LastAppliedStrategy" value="Xilinx Default (unlocked)" type="design"/>
+<property name="PROP_ManualCompileOrderImp" value="false" type="design"/>
+<property name="PROP_PropSpecInProjFile" value="Store all values" type="design"/>
+<property name="PROP_SelectedInstanceHierarchicalPath" value="/test4/uut" type="process"/>
+<property name="PROP_Simulator" value="Modelsim-SE VHDL" type="design"/>
+<property name="PROP_SynthTopFile" value="changed" type="process"/>
+<property name="PROP_Top_Level_Module_Type" value="HDL" type="design"/>
+<property name="PROP_UseSmartGuide" value="false" type="design"/>
+<property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
+<property name="PROP_intProjectCreationTimestamp" value="2019-03-22T12:08:25" type="design"/>
+<property name="PROP_intWbtProjectID" value="43021DBF2C374BC1B05526FB3C4BB950" type="design"/>
+<property name="PROP_intWbtProjectIteration" value="6" type="process"/>
+<property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
+<property name="PROP_intWorkingDirUsed" value="No" type="design"/>
+<property name="PROP_selectedSimRootSourceNode_behav" value="work.shift_RTL" type="process"/>
+<property name="PROP_xilxBitgStart_IntDone" value="true" type="process"/>
+<property name="PROP_AutoTop" value="true" type="design"/>
+<property name="PROP_DevFamily" value="Spartan6" type="design"/>
+<property name="PROP_DevDevice" value="xc6slx75t" type="design"/>
+<property name="PROP_DevFamilyPMName" value="spartan6" type="design"/>
+<property name="PROP_DevPackage" value="fgg484" type="design"/>
+<property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
+<property name="PROP_DevSpeed" value="-2" type="design"/>
+<property name="PROP_PreferredLanguage" value="VHDL" type="design"/>
+<property name="FILE_VHDL" value="3" type="source"/>
+</section>
+</application>
+</document>

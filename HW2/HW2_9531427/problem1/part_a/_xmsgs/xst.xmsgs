@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="871" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 50: Using initial value <arg fmt="%s" index="1">&quot;00000000000000000000000000000000&quot;</arg> for <arg fmt="%s" index="2">r_type</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 63: Assignment to <arg fmt="%s" index="1">opcode_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 64: Assignment to <arg fmt="%s" index="1">opcode_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 65: Assignment to <arg fmt="%s" index="1">opcode_s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 66: Assignment to <arg fmt="%s" index="1">opcode_b</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 67: Assignment to <arg fmt="%s" index="1">opcode_u</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 68: Assignment to <arg fmt="%s" index="1">opcode_j</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 70: Assignment to <arg fmt="%s" index="1">rd_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 71: Assignment to <arg fmt="%s" index="1">rd_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 72: Assignment to <arg fmt="%s" index="1">rd_u</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 73: Assignment to <arg fmt="%s" index="1">rd_j</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 75: Assignment to <arg fmt="%s" index="1">func3_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 76: Assignment to <arg fmt="%s" index="1">func3_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 77: Assignment to <arg fmt="%s" index="1">func3_s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 78: Assignment to <arg fmt="%s" index="1">func3_b</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 86: Assignment to <arg fmt="%s" index="1">rs1_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 87: Assignment to <arg fmt="%s" index="1">rs1_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 88: Assignment to <arg fmt="%s" index="1">rs1_s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 89: Assignment to <arg fmt="%s" index="1">rs1_b</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 91: Assignment to <arg fmt="%s" index="1">rs2_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 92: Assignment to <arg fmt="%s" index="1">rs2_s</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\Ashkan works\HW2_9531427\problem2\part1\RISC_1.vhd" Line 95: Assignment to <arg fmt="%s" index="1">func7_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">instruction_bus</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+</messages>
+

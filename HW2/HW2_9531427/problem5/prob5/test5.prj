@@ -1,0 +1,4 @@
+vhdl work "MUX8.vhd"
+vhdl work "shift_RTL.vhd"
+vhdl work "config_arch.vhd"
+vhdl work "test5.vhd"

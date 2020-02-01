@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun May 19 16:49:59 2019
+# Process ID: 7600
+# Current directory: D:/Ashkan works/PDS_HW4/P2/CRC/CRC.runs/synth_1
+# Command line: vivado.exe -log CRC_16.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CRC_16.tcl
+# Log file: D:/Ashkan works/PDS_HW4/P2/CRC/CRC.runs/synth_1/CRC_16.vds
+# Journal file: D:/Ashkan works/PDS_HW4/P2/CRC/CRC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CRC_16.tcl -notrace

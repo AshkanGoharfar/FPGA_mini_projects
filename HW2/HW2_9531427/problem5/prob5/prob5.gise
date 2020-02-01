@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="prob5.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="config_arch.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="config_arch.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="config_arch.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="config_arch.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="config_arch.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="config_arch.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="config_arch.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="config_arch.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="config_arch.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="config_arch.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="config_arch.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="config_arch.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="config_arch.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="config_arch.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="config_arch.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="config_arch.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="config_arch.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="config_arch.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="config_arch.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="config_arch_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="config_arch_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="config_arch_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="config_arch_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="config_arch_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="config_arch_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="config_arch_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="config_arch_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="config_arch_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="config_arch_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="config_arch_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="config_arch_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="config_arch_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="config_arch_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="config_arch_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="test5.cmd_log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="test5.fdo"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="test5.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test5.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="test5.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="test5.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="test5_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="test5_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="test5_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_LOG" xil_pn:name="vsim.wlf"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="work"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1553270080" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1553270080">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270080" xil_pn:in_ck="3243583691259027913" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1553270080">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MUX8.vhd"/>
+      <outfile xil_pn:name="config_arch.vhd"/>
+      <outfile xil_pn:name="shift_RTL.vhd"/>
+      <outfile xil_pn:name="test5.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270080" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6458978989183024075" xil_pn:start_ts="1553270080">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270080" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="704419847211929847" xil_pn:start_ts="1553270080">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270080" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7047737633676853592" xil_pn:start_ts="1553270080">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270080" xil_pn:in_ck="3243583691259027913" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1553270080">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="MUX8.vhd"/>
+      <outfile xil_pn:name="config_arch.vhd"/>
+      <outfile xil_pn:name="shift_RTL.vhd"/>
+      <outfile xil_pn:name="test5.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270081" xil_pn:in_ck="3243583691259027913" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="-4660618113584421344" xil_pn:start_ts="1553270080">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="test5.fdo"/>
+      <outfile xil_pn:name="vsim.wlf"/>
+      <outfile xil_pn:name="work"/>
+    </transform>
+    <transform xil_pn:end_ts="1553264906" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1553264906">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270065" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7100833107282676361" xil_pn:start_ts="1553270065">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270065" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7047737633676853592" xil_pn:start_ts="1553270065">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553264906" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1553264906">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270065" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6458978989183024075" xil_pn:start_ts="1553270065">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553264906" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="5702940744460053484" xil_pn:start_ts="1553264906">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270065" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1270450679481996894" xil_pn:start_ts="1553270065">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270074" xil_pn:in_ck="3243583691259027913" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="1547574704030288300" xil_pn:start_ts="1553270065">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="config_arch.ngr"/>
+      <outfile xil_pn:name="test5.lso"/>
+      <outfile xil_pn:name="test5.prj"/>
+      <outfile xil_pn:name="test5.syr"/>
+      <outfile xil_pn:name="test5.xst"/>
+      <outfile xil_pn:name="test5_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1553270074" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8600487233993895328" xil_pn:start_ts="1553270074">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1553269603" xil_pn:in_ck="5903705792988504249" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3087649073977655819" xil_pn:start_ts="1553269594">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="config_arch.bld"/>
+      <outfile xil_pn:name="config_arch.ngd"/>
+      <outfile xil_pn:name="config_arch_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1553269633" xil_pn:in_ck="5903705792988504250" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="3373610943407121171" xil_pn:start_ts="1553269603">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="config_arch.pcf"/>
+      <outfile xil_pn:name="config_arch_map.map"/>
+      <outfile xil_pn:name="config_arch_map.mrp"/>
+      <outfile xil_pn:name="config_arch_map.ncd"/>
+      <outfile xil_pn:name="config_arch_map.ngm"/>
+      <outfile xil_pn:name="config_arch_map.xrpt"/>
+      <outfile xil_pn:name="config_arch_summary.xml"/>
+      <outfile xil_pn:name="config_arch_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1553269669" xil_pn:in_ck="-3908239137606894381" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-8066324139983898644" xil_pn:start_ts="1553269633">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="config_arch.ncd"/>
+      <outfile xil_pn:name="config_arch.pad"/>
+      <outfile xil_pn:name="config_arch.par"/>
+      <outfile xil_pn:name="config_arch.ptwx"/>
+      <outfile xil_pn:name="config_arch.unroutes"/>
+      <outfile xil_pn:name="config_arch.xpi"/>
+      <outfile xil_pn:name="config_arch_pad.csv"/>
+      <outfile xil_pn:name="config_arch_pad.txt"/>
+      <outfile xil_pn:name="config_arch_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1553269669" xil_pn:in_ck="5903705792988504118" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-3742689831323817471" xil_pn:start_ts="1553269655">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="config_arch.twr"/>
+      <outfile xil_pn:name="config_arch.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

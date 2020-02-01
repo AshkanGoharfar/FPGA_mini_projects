@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.xst" -ofn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.xst" -ofn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.xst" -ofn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.xst" -ofn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.xst" -ofn "D:/Ashkan works/HW2_9531427/problem6/prob6_a/seven_seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx75t-fgg484-2 "seven_seg.ngc" seven_seg.ngd  
+map -intstyle ise -p xc6slx75t-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o seven_seg_map.ncd seven_seg.ngd seven_seg.pcf 
+par -w -intstyle ise -ol high -mt off seven_seg_map.ncd seven_seg.ncd seven_seg.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml seven_seg.twx seven_seg.ncd -o seven_seg.twr seven_seg.pcf 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem6/prob6_b/seven_seg.xst" -ofn "D:/Ashkan works/HW2_9531427/problem6/prob6_b/seven_seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx75t-fgg484-2 "seven_seg.ngc" seven_seg.ngd  
+map -intstyle ise -p xc6slx75t-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o seven_seg_map.ncd seven_seg.ngd seven_seg.pcf 
+par -w -intstyle ise -ol high -mt off seven_seg_map.ncd seven_seg.ncd seven_seg.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml seven_seg.twx seven_seg.ncd -o seven_seg.twr seven_seg.pcf 

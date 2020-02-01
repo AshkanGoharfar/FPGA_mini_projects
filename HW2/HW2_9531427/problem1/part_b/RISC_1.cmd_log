@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem2/part1/RISC_1.xst" -ofn "D:/Ashkan works/HW2_9531427/problem2/part1/RISC_1.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem2/part1/RISC_1.xst" -ofn "D:/Ashkan works/HW2_9531427/problem2/part1/RISC_1.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem2/part1/RISC_1.xst" -ofn "D:/Ashkan works/HW2_9531427/problem2/part1/RISC_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx75t-fgg484-2 "RISC_1.ngc" RISC_1.ngd  
+map -intstyle ise -p xc6slx75t-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RISC_1_map.ncd RISC_1.ngd RISC_1.pcf 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem2/part_b/RISC_1.xst" -ofn "D:/Ashkan works/HW2_9531427/problem2/part_b/RISC_1.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem2/part_b/RISC_1.xst" -ofn "D:/Ashkan works/HW2_9531427/problem2/part_b/RISC_1.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem2/part_b/RISC_1.xst" -ofn "D:/Ashkan works/HW2_9531427/problem2/part_b/RISC_1.syr" 
+xst -intstyle ise -ifn "D:/Ashkan works/HW2_9531427/problem2/part_b/RISC_1.xst" -ofn "D:/Ashkan works/HW2_9531427/problem2/part_b/RISC_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx75t-fgg484-2 "RISC_1.ngc" RISC_1.ngd  
+map -intstyle ise -p xc6slx75t-fgg484-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o RISC_1_map.ncd RISC_1.ngd RISC_1.pcf 
+par -w -intstyle ise -ol high -mt off RISC_1_map.ncd RISC_1.ncd RISC_1.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml RISC_1.twx RISC_1.ncd -o RISC_1.twr RISC_1.pcf 

@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Sun May 19 17:39:35 2019
+# Process ID: 1664
+# Current directory: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/mult_gen_0_synth_1
+# Command line: vivado.exe -log mult_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_gen_0.tcl
+# Log file: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/mult_gen_0_synth_1/mult_gen_0.vds
+# Journal file: D:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.runs/mult_gen_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_gen_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 337.477 ; gain = 127.535
+INFO: [Synth 8-638] synthesizing module 'mult_gen_0' [d:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/ip/mult_gen_0/synth/mult_gen_0.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'mult_gen_0' (5#1) [d:/Ashkan works/PDS_HW4/P4/matrix_inv/matrix_inv.srcs/sources_1/ip/mult_gen_0/synth/mult_gen_0.vhd:68]
+Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 385.676 ; gain = 175.734
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 385.676 ; gain = 175.734
+INFO: [Device 21-403] Loading part xc7a200tisbg484-1L
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.069 . Memory (MB): peak = 717.895 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 717.895 ; gain = 507.953
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 717.895 ; gain = 507.953
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |    37|
+|2     |LUT1     |     6|
+|3     |LUT2     |   145|
+|4     |LUT3     |    22|
+|5     |LUT4     |   120|
+|6     |MULT_AND |   135|
+|7     |MUXCY    |   136|
+|8     |XORCY    |   144|
+|9     |FDRE     |    32|
++------+---------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 717.895 ; gain = 507.953
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 717.895 ; gain = 455.598
